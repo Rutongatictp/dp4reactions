@@ -43,7 +43,16 @@ print(perturbed_system.data)
 ```
 
 ### Train a model
+```bash
+dp train input.json
+```
 
 ### Frozen a model
-
+```bash
+dp freeze
+```
+After training, to obtain the dp potential for lammps runing
 ### Run lammps
+```bash
+lmp <in.lammps
+```
